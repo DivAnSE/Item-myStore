@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 1px solid #CB2430;
+}
+header>[type="search"]{
+    height: 35px;
+    width: 400px;
+    padding-left: 3px;
+    outline: none;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+header button{
+    position: relative;
+    left: -5px;
+    width: 45px;
+    height: 35px;
+    background-color: red;
+    border-width: 0;
+    border-radius: 0 5px 5px 0;
+}
+header button i{
+    color: white;
+}
+header  button:hover{   
+    cursor: pointer;
+    background-color: #880000;
+}
+header>span{
+    font-size: 0.9rem;
+    color: grey;
+}
+header section{
+    text-align: left;
+    margin: 0 20px 0 120px;
+}
+header section a{
+    display: inline-block;
+    font-size:1.2rem ;
+    margin-top: 8px;
+    padding: 10px 10px;
+    color:#CB2430;
+    font-weight: bold;
+}
+header section a:hover{
+    color: white;
+    background-color: #B1191A;
+}
+.success{
+    padding: 10px 160px;
+    height: 200px;
+    background-color: #F5F5F5;
+}
+.success i,span{
+    color: #71B247;
+    font-size: 1.2rem;
+}
+.success img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+.success div{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    width: 900px;
+}
+.success div span{
+    display: inline-block;
+    width: 450px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.success div span:first-of-type{
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    font-size: 0.9rem;
+    color: black;
+}
+.success div span:last-of-type{
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    font-size: 0.7rem;
+    color: #9C9C9C;
+}
+.settlement{
+    position: relative;
+}
+.settlement>a>button{
+    position: absolute;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size:0.9rem;
+    border: 1px solid transparent;
+}
+.settlement a button.details{
+    right: 130px;
+    background-color: #fff;
+    color: red;
+}
+.settlement a button.pay{
+    right: 10px;
+    background-color: red;
+    color: white;
+}
+.settlement a button i{
+    margin-left: 8px;
+    line-height: 40px;
+    color: white;
+}
+.settlement a button:hover{
+    border: 1px solid red;
+}
+.cart_ads p{
+    margin: 20px 0 20px 160px;
+    color: #666666;
+    font-weight: bold;
+}
+.cart_ads .goods{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,150px);
+    width: 1200px;
+    margin: auto;
+}
+.cart_ads .goods div{
+    display: grid;
+    grid-template-rows: repeat(3,50px);
+    grid-template-columns: 150px 150px;
+}
+.cart_ads .goods div img{
+    grid-row: 1/4;
+    width: 120px;
+    height: 120px;
+    justify-self: center;
+    align-self: center;
+}
+.cart_ads .goods div span:first-of-type{
+    font-size: 0.9rem;
+    color: black;
+}
+.cart_ads .goods div span:nth-of-type(2){
+    color: red;
+}
+.cart_ads .goods>div>button{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: red;
+}
+.cart_ads .goods>div>button:hover{
+    border: 1px solid red;
+}

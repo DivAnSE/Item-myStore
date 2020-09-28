@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 1px solid #CB2430;
+}
+header>[type="search"]{
+    height: 35px;
+    width: 400px;
+    padding-left: 3px;
+    outline: none;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+header button{
+    position: relative;
+    left: -5px;
+    width: 45px;
+    height: 35px;
+    background-color: red;
+    border-width: 0;
+    border-radius: 0 5px 5px 0;
+}
+header button i{
+    color: white;
+}
+header  button:hover{   
+    cursor: pointer;
+    background-color: #880000;
+}
+header>span{
+    font-size: 0.9rem;
+    color: grey;
+}
+header section{
+    text-align: left;
+    margin: 0 20px 0 120px;
+}
+header section a{
+    display: inline-block;
+    font-size:1.2rem ;
+    margin-top: 8px;
+    padding: 10px 10px;
+    color:#CB2430;
+    font-weight: bold;
+}
+header section a:hover{
+    color: white;
+    background-color: #B1191A;
+}
+article{
+   display: grid;
+   grid-template-columns: repeat(4,220px);
+   grid-template-rows: repeat(3,75px);
+   width: 900px;
+   padding: 20px;
+   margin: auto;
+   justify-content: center;
+}
+article section{
+    display: grid;
+    grid-template-columns: 60px 160px;
+    grid-template-rows: repeat(2,24px);
+    border: 1px solid lightslategray;
+    padding: 10px 20px 5px 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+article section:hover{
+    cursor: pointer;
+    border: 1px solid red;
+    color: red;
+}
+article section i{
+    grid-row: 1/3;
+}
+article section span:first-of-type{
+    color: #9A9A9A;
+    align-self: flex-end;
+}
+article section span:last-of-type{
+    font-size: 0.9rem;
+    align-self: flex-end;
+}
+.fa-weixin{
+    color: #00B700;
+}
+.fa-qq{
+    color: #4CAFE9;
+}
+.fa-weibo{
+    color: #D52B2A;
+}
+.fa-facebook-square{
+    color: #39569D;
+}

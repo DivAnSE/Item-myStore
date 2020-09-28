@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    padding-top: 15px;
+    border-bottom: 1px solid #CB2430;
+}
+header>[type="search"]{
+    height: 35px;
+    width: 400px;
+    padding-left: 3px;
+    outline: none;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+header button{
+    position: relative;
+    left: -5px;
+    width: 45px;
+    height: 35px;
+    background-color: red;
+    border-width: 0;
+    border-radius: 0 5px 5px 0;
+}
+header button i{
+    color: white;
+}
+header  button:hover{   
+    cursor: pointer;
+    background-color: #880000;
+}
+header>span{
+    font-size: 0.9rem;
+    color: grey;
+}
+header section{
+    text-align: left;
+    margin: 0 20px 0 120px;
+}
+header section a{
+    display: inline-block;
+    font-size:1.2rem ;
+    margin-top: 8px;
+    padding: 10px 10px;
+    color:#CB2430;
+    font-weight: bold;
+}
+header section a:hover{
+    color: white;
+    background-color: #B1191A;
+}
+article{
+    margin: 50px;
+}
+article>div{
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 326px;
+    border: 0.7px solid lightseagreen;
+    border-radius: 5px;
+}
+article>div p:first-of-type{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    background-color: #F5F5F5;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0.7px solid lightseagreen;
+}
+article>div p:nth-of-type(2){
+    font-size: 0.9rem;
+    padding-left: 15px;
+    font-weight: bold;
+}
+textarea{
+    display: inline-block;
+    width: 415px;
+    height: 200px;
+    margin: 10px 0 20px 15px;
+    border-radius: 3px;
+    border-width: 0.6px;
+    outline: none;
+    resize: none;
+    box-shadow: 0 0 4.3px -1px black inset;
+}
+article div [type="button"]{
+    position: absolute;
+    bottom: 5px;
+    right: 21px;
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius:2px;
+    border-width: 0;
+}
+article>div p:last-of-type{
+    height: 35px;
+    background-color: #F5F5F5;
+    border-top: 0.7px solid lightseagreen;;
+    border-radius: 0 0 5px 5px;
+}
